@@ -3,7 +3,7 @@ const colors = ['orange', 'yellow', 'white', 'cornflowerblue', 'lightskyblue' ]
 const SQUARES = 500
 
 for (let i = 0; i < SQUARES; i++) {
-    const sqaure = document.createElement('div')
+    const square = document.createElement('div')
     square.classList.add('square')
     container.appendChild(square)
     square.addEventListener('mouseover', () => setColor(sqaure))
