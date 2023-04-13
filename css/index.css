@@ -1,9 +1,3 @@
-
-* {
-    box-sizing: border-box;
-}
-
-
 body {
     background-color: aqua;
     display: flex;
@@ -12,44 +6,4 @@ body {
     justify-content: center;
     margin: 0;
     overflow: hidden;
-}
-
-.index {
-    height: 50px;
-    position: relative;
-}
-
-.index.input {
-    background-color: white;
-    font-size: 18px;
-    height: 50px;
-    padding: 15px;
-    border: 0;
-    width: 50px;
-    transition: width 1s ease;
-}
-
-.index .btn {
-    background-color: white;
-    width: 50px;
-    height: 50px;
-    border: 0;
-    cursor: pointer;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: transform 1s ease;
-}
-
-
-.index.active .input {
-    width: 200px;
-}
-
-.index.active .btn {
-    transform: translateX(198px);
-}
-
-.input:focus {
-    outline: none;
 }
