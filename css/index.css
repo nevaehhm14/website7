@@ -8,6 +8,9 @@ body {
     overflow: hidden;
 }
 
+a {
+    margin: 20px;
+}
 .container {
     text-align: center;
 }
