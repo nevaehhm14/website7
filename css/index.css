@@ -11,14 +11,3 @@ body {
 a {
     margin: 20px;
 }
-.container {
-    text-align: center;
-}
-
-.index-container {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    margin-bottom: 30px;
-    width: 350px;
-}
