@@ -26,3 +26,16 @@ body {
 .square:hover {
     transition-duration: 0s;
 }
+
+.home {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    cursor: pointer;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
